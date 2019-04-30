@@ -44,6 +44,10 @@ Dance Choreography is the base problem for this proof that all following problem
   -  f-1 = _f-start_ and f-n = _f-end_
 - And
   -  {f-i: 1<=i<=n} is a subset of _Compulsory_?
+  
+To show DC to be NP-Complete, you must show that a solution (found non-deterministically) is verifiable in polynomial time. In order to verify a solution to DC, you must simply confirm that figures used in Amalgamation are valid with regards to Follow, contained in Compulsory, and begin and end with the designated figures.
+
+The second part of proving DC is NP-Complete requires another NP-Complete problem that has already been proven to fit into the category. From there, if DC can be transformed into it in polynomial time then DC must also be NP-Complete. This brings us to the next problem:
 
 ### Hamiltonian Circuits (HC)
 A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. 
