@@ -104,7 +104,7 @@ For an instance of DCk:
   Else →  no
 ```
 ## Exhaustive and Heuristic Algorithms
-Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10.
+Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10. 
 ### Exhaustive Algorithms
 In an exhaustive algorithm, every eventuality is investigated and it backtracks as it searches. Though this does eventually find the most optimum solution, it is not very efficient and will take exponential time in the worst case scenario.
 ### Heuristic Algorithms: The Greedy Algorithm
@@ -113,7 +113,10 @@ Heuristic algorithms are algorithms in which a practical approach is applied to 
 The Greedy Algorithm is an example of a heuristic algorithm in which at each step the "best choice" is made and there is no backtracking. This algorithm is much faster than its counterpart, the exhaustive algorithm, however, the optimal solution is not guarenteed.
 
 ![Image](https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=300)
-
+src: https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=300
+### Exhaustive vs. Heuristic Algorithms
+As previously stated, heuristic algorithms may be more efficient but they do not guarentee the optimal solution. Below are graphs comparing the performances of an exhaustive algorithm and a heuristic algorithm (the greedy algorithm).
+![Image]()
 ## Real World Applications
 
 ## Evaluation
