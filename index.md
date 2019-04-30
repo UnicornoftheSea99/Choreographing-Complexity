@@ -22,7 +22,7 @@ Syntax highlighted code block
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 
-## Introduction
+## Introduction :dancer:
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography.
 
 ## Background Information
@@ -38,7 +38,7 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 ```
 
 ## Optimization Problems
-We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. 
+We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. Rather than asking if the object of focus, a graph in this case, contains certain elements, optimization problems look to see if an optimum solution can be found and how hard it is to find it. 
 
 Here optimization is based on set cardinality. In other words, the most optimum solution is that with the most variation in the figures. 
 ### Dance Choreography Optimization (DCO)
@@ -53,6 +53,12 @@ k ≤ max → yes
 Else →  no
 
 ```
+## Exhaustive and Heuristic Algorithms
+Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the data set grows larger.
+### Exhaustive Algorithms
+```markdown
+
+```
 ## Real World Applications
 
 ## Evaluation
@@ -60,6 +66,6 @@ The way that the author defined dance, as a series of figures that could or coul
 
 However, dance is an art not a science and it follows from that that an optimized order of figures probably won’t automatically make the best dance routine.
 
+## For more information
 
-
-To read his article, click [here](http://dl6.globalstf.org/index.php/joc/article/download/1092/1025/).
+Read his article, [here](http://dl6.globalstf.org/index.php/joc/article/download/1092/1025/).
