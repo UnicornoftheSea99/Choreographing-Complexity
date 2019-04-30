@@ -49,15 +49,14 @@ Let max be the optimal solution for an instance of DCO, where max = |{f1, .. fn}
 
 The Turing Machine would appear as the following:
 For an instance of DCk:
-k ≤ max → yes 
-Else →  no
-
+  k ≤ max → yes 
+  Else →  no
 ```
 ## Exhaustive and Heuristic Algorithms
-Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the data set grows larger.
+Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10.
 ### Exhaustive Algorithms
 ```markdown
-
+In an exhaustive algorithm, every eventuality is investigated and it backtracks as it searches. Though this does eventually find the most optimum solution, it is not very efficient and will take exponential time in the worst case scenario.
 ```
 ## Real World Applications
 
