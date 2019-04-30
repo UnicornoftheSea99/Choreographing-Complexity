@@ -26,6 +26,22 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography.
 
 ## Background Information
+**Complexity Theory:**
+Complexity theory seeks to answer a few problems, one overarching and one problem-specific. The first is whether the category of problems that can be solved in polynomial time the same as the category of problems which can be verified in polynomial time through a non-deterministic method that generates possible solutions. In other words, P=NP?
+
+The second, problem specific one is which complexity category does the problem belong in. In the case of this paper, that means determining which categories these choreography problems belong in and how they can be linked to help solve each other.
+
+**NP Complexity Classes:**
+Non-determinism is useful because it allows us to suspend some concerns, such as an actual solution -- for NP, we only have to prove that you can verify a given solution in polynomial time, we don’t actually need to find a solution. The goal of this paper is, therefore, not to find particular solutions but to classify the process through which they might be found. THe categories, which we did cover in class, are defined as the following:
+
+- NP-Complete as a subcategory of NP-Complex, composed of problems where an efficient solution to one would lead to such a solution to all of them -- they are all at least as difficult as each other.
+  -  binary responses of yes/no
+- Also within NP-Complexity are NP-Hard, NP-Easy, and NP-Equivalent classes
+  -  NP-Hard problems are often optimization problems related to NP-Complete problems, but with answers more complex than a binary yes/no
+  -  These are often at least as difficult again as NP-Complete problems but no more difficult than any other NP problem (NP-Easy)
+  -  If a problem is both NP-Hard and NP-Easy, it’s NP-Equivalent
+- “This implies that the decision problem and the related optimization problem that have been categorized as NP-Complete, and NP-Hard/Easy, respectively, are “equivalent” from the efficiency aspect.” 
+
 ## Decision Problems
 These decision problems are constructed with the aim of determining not a particular choreography but whether, given a set of figures and ways they can be combined and a few other restrictions, a choreography can or cannot be assembled. These problems serve as the base for the following optimization problems, which allow for more specifications.
 
