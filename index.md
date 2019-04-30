@@ -28,26 +28,23 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 ## Background Information
 ## Decision Problems
 ### Hamiltonian Circuits (HC)
-```markdown
-```
+
 ### Dance Choreography (DC)
-```markdown
-```
+
 ### Dance Choreography k (DCk)
-```markdown
-```
+
 
 ## Optimization Problems
 We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. Rather than asking if the object of focus, a graph in this case, contains certain elements, optimization problems look to see if an optimum solution can be found and how hard it is to find it. 
 
 Here optimization is based on set cardinality. In other words, the most optimum solution is that with the most variation in the figures. 
 ### Dance Choreography Optimization (DCO)
-```markdown
 We show that DCO is NP-hard through showing that DCk, which is NP-complete, is Turing reducible to DCO.
 
 Let max be the optimal solution for an instance of DCO, where max = |{f1, .. fn}|. 
 
 The Turing Machine would appear as the following:
+```
 For an instance of DCk:
   k ≤ max → yes 
   Else →  no
@@ -55,9 +52,8 @@ For an instance of DCk:
 ## Exhaustive and Heuristic Algorithms
 Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10.
 ### Exhaustive Algorithms
-```markdown
 In an exhaustive algorithm, every eventuality is investigated and it backtracks as it searches. Though this does eventually find the most optimum solution, it is not very efficient and will take exponential time in the worst case scenario.
-```
+
 ## Real World Applications
 
 ## Evaluation
