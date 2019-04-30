@@ -1,4 +1,4 @@
-## Introduction :dancer:
+## Introduction
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography. Gwee narrowly defines the dances he’s computationally choreographing as a finite number of figures, positions or motions that a dancer might perform. Additionally, he defines a number of tuples defining possible interactions between these figures so that a choreography won’t demand a dancer to move in a way that is not possible. 
 
 Having defined his parameters, Gwee sets out to prove that choreographing a dance is a NP-complexity problem. Through proving this, he would show that the problem of dance choreography is easily transformable into many others. This opens the door to using already existing algorithms to find solutions to posed choreography problems.
@@ -42,6 +42,8 @@ Dance Choreography is the base problem for this proof that all following problem
   -  {f-i: 1<=i<=n} is a subset of _Compulsory_?
   
 To show DC to be NP-Complete, you must show that a solution (found non-deterministically) is verifiable in polynomial time. In order to verify a solution to DC, you must simply confirm that figures used in _Amalgamation_ are valid with regards to _Follow_, contained in _Compulsory_, and begin and end with the designated figures, _f-start_ and _f-end_.
+
+![Image](https://imgur.com/ub39zBr.png)
 
 The second part of proving DC is NP-Complete requires another NP-Complete problem that has already been proven to fit into the category. From there, if DC can be transformed into it in polynomial time then DC must also be NP-Complete. This brings us to the next problem:
 
@@ -112,7 +114,10 @@ Aside from other NP Problems, the principles of this paper can be applied to oth
 ## Evaluation
 The way that the author defined dance, as a series of figures that could or could not be connected in different ways was very clever. It allowed it to take a form distinctly related to graphs, which made the proof process much easier.
 
-However, dance is an art not a science and it follows from that that an optimized order of figures probably won’t automatically make the best dance routine.
+The argument itself is relatively straightforward, especially when viewed as a graph. Some of the intricacies of the technical definition, where Gwee was detailing the numbered figures, lost me quite a bit, but the overarching argument and result seemed clear -- given the constraints, dance choreography is, in fact, in various categories of NP depending on the problem. 
+
+What was less clear was the impact the study and others like it could have in the intersection between art and computing. It complicates the already muddled definition of art, which is often defined both categorically (visual, writing, music, dance, etc.) and through the skills and processes used. Merriam Webster has multiple definitions of art, including “the conscious use of skill and creative imagination especially in the production of aesthetic objects”. So does a choreography created by a computer, presumably lacking in "creative imagination" still count as art? What is the probability of a routine created by a computer comparing visually and emotionally to one created by a human? _Can_ this be fully taught to a computer and if so, how? 
+
 
 ## For more information
 
