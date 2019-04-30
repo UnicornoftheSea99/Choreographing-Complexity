@@ -25,6 +25,22 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ## Introduction
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography.
 
+## Optimization Problems
+We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. 
+
+Here optimization is based on set cardinality. In other words, the most optimum solution is that with the most variation in the figures. 
+```markdown
+### Dance Choreography Optimization (DCO)
+We show that DCO is NP-hard through showing that DCk, which is NP-complete, is Turing reducible to DCO.
+
+Let max be the optimal solution for an instance of DCO, where max = |{f1, .. fn}|. 
+
+The Turing Machine would appear as the following:
+For an instance of DCk:
+k ≤ max → yes 
+Else →  no
+
+
 ## Real World Applications
 
 ## Evaluation
