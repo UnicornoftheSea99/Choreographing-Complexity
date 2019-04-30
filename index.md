@@ -27,6 +27,16 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 
 ## Background Information
 ## Decision Problems
+### Dance Choreography (DC)
+Dance Choreography is the base problem for this proof that all following problems rely on. It is composed of the Instance, which specifies the components of the problem, and the Question, which specifies what the problem is.
+
+**Instance**
+>A finite set of _Figures_;
+>a set _Follow_ of tuples <f-i, f-j>, f-i, f-j in _Figures_;
+>n in Natural Numbers;
+>_f-start_, _f-end_ in _Figures_;
+>a set _Compulsory_ that is a subset of _Figures_
+
 ### Hamiltonian Circuits (HC)
 A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. 
 
@@ -35,9 +45,6 @@ DC can be given certain parameters to create a HC:
 - Set _f-start_ = _f-end_ so that DC ends where it starts and creates a circuit to fulfill the requirements of a HC
 
 Since by restricting DC with these requirements we can convert it to a HC, it must also be NP-Complete.
-
-
-### Dance Choreography (DC)
 
 ### Dance Choreography k (DCk)
 
