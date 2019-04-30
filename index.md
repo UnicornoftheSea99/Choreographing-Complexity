@@ -28,7 +28,13 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 ## Background Information
 ## Decision Problems
 ### Hamiltonian Circuits (HC)
-A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. DC can be given certain parameters to create a HC. We set Compulsory equal to Figures so that the two sets contain all of the “vertices” and set fstart = fend so that DC ends where it starts and creates a circuit to fulfill the requirements of a HC. Since by restricting DC with these requirements we can convert it to a HC, it must also be NP-Complete.
+A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. 
+
+DC can be given certain parameters to create a HC:
+- Set _Compulsory_ equal to _Figures_ so that the two sets contain all of the “vertices” 
+- Set _f-start_ = _f-end_ so that DC ends where it starts and creates a circuit to fulfill the requirements of a HC
+
+Since by restricting DC with these requirements we can convert it to a HC, it must also be NP-Complete.
 
 
 ### Dance Choreography (DC)
