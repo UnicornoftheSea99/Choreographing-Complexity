@@ -54,6 +54,10 @@ The second part of proving DC is NP-Complete requires another NP-Complete proble
 ### Hamiltonian Circuits (HC)
 A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. 
 
+![Image](https://www3.cs.stonybrook.edu/~skiena/combinatorica/animations/anim/ham.gif)
+
+_src: https://www3.cs.stonybrook.edu/~skiena/combinatorica/animations/anim/ham.gif_
+
 DC can be given certain parameters to create a HC:
 - Set _Compulsory_ equal to _Figures_ so that the two sets contain all of the “vertices” 
 - Set _f-start_ = _f-end_ so that DC ends where it starts and creates a circuit to fulfill the requirements of a HC
