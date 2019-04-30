@@ -25,6 +25,21 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 ## Introduction
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography.
 
+## Background Information
+## Decision Problems
+```markdown
+### Hamiltonian Circuits (HC)
+```
+
+```markdown
+### Dance Choreography (DC)
+
+```
+
+```markdown
+### Dance Choreography k (DCk)
+```
+
 ## Optimization Problems
 We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. 
 
@@ -40,7 +55,7 @@ For an instance of DCk:
 k ≤ max → yes 
 Else →  no
 
-
+```
 ## Real World Applications
 
 ## Evaluation
