@@ -109,7 +109,8 @@ In an exhaustive algorithm, every eventuality is investigated and it backtracks 
 Heuristic algorithms are algorithms in which a practical approach is applied to reach a possible solution. The most optimal solution may not be the result, but a "good enough" solution is. 
 
 The Greedy Algorithm is an example of a heuristic algorithm in which at each step the "best choice" is made and there is no backtracking. This algorithm is much faster than its counterpart, the exhaustive algorithm, however, the optimal solution is not guarenteed.
-![Image](https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=500)
+
+![Image](https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=300)
 
 ## Real World Applications
 
