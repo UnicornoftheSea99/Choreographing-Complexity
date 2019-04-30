@@ -23,7 +23,9 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 
 ## Introduction :dancer:
-In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography.
+In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography. Gwee narrowly defines the dances he’s computationally choreographing as a finite number of figures, positions or motions that a dancer might perform. Additionally, he defines a number of tuples defining possible interactions between these figures so that a choreography won’t demand a dancer to move in a way that is not possible. 
+
+Having defined his parameters, Gwee sets out to prove that choreographing a dance is a NP-complexity problem. Through proving this, he would show that the problem of dance choreography is easily transformable into many others. This opens the door to using already existing algorithms to find solutions to posed choreography problems.
 
 ## Background Information
 **Complexity Theory:**
