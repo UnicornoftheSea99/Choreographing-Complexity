@@ -1,27 +1,3 @@
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-
 ## Introduction :dancer:
 In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee seeks to define the complexity of dance choreography. Gwee narrowly defines the dances he’s computationally choreographing as a finite number of figures, positions or motions that a dancer might perform. Additionally, he defines a number of tuples defining possible interactions between these figures so that a choreography won’t demand a dancer to move in a way that is not possible. 
 
@@ -122,6 +98,7 @@ The Greedy Algorithm is an example of a heuristic algorithm in which at each ste
 src: https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=300
 ### Exhaustive vs. Heuristic Algorithms
 As previously stated, heuristic algorithms may be more efficient but they do not guarentee the optimal solution. Below are graphs comparing the performances of an exhaustive algorithm and a heuristic algorithm (the greedy algorithm).
+
 ![Image](exhaustive.png)
 ![Image](greedy.png)
 
