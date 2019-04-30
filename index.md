@@ -117,8 +117,8 @@ The Greedy Algorithm is an example of a heuristic algorithm in which at each ste
 src: https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=300
 ### Exhaustive vs. Heuristic Algorithms
 As previously stated, heuristic algorithms may be more efficient but they do not guarentee the optimal solution. Below are graphs comparing the performances of an exhaustive algorithm and a heuristic algorithm (the greedy algorithm).
-![Image](greedy.png)
 ![Image](exhaustive.png)
+![Image](greedy.png)
 
 ## Real World Applications
 
