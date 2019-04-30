@@ -59,6 +59,9 @@ DC can be given certain parameters to create a HC:
 Since by restricting DC with these requirements we can convert it to a HC, it must also be NP-Complete.
 
 ### Dance Choreography k (DCk)
+In order to transition from a decision problem to an optimization problem, we must introduce the concept of distinctness by introducing a variable k to the Instance. k must be contained in the set of natural numbers, including 0. To the question, we include the added restriction that the number of distinct elements f-1 through f-n must be greater than or equal to the value of k. 
+
+The problem does not change substantially to the point where it isn’t clearly restrictable to DC. Do this and set k to 0. Since DCk is transformable to DC and DC can be transformed into a Hamiltonian Circuit, which is NP-Complete, DCk is also NP-Complete.
 
 
 ## Optimization Problems
