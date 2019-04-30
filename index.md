@@ -47,10 +47,10 @@ We make the transition from decision problems to optimization problems with the 
 
 Here optimization is based on set cardinality. In other words, the most optimum solution is that with the most variation in the figures. 
 ### Dance Choreography Optimization (DCO)
-We show that DCO is NP-hard through showing that DCk, which is NP-complete, is Turing reducible to DCO.
-
+We show that DCO is NP-hard through showing that DCk, which is NP-complete, is Turing reducible to DCO''
+```markdown
 Let max be the optimal solution for an instance of DCO, where max = |{f1, .. fn}|. 
-
+```
 The Turing Machine would appear as the following:
 ```
 For an instance of DCk:
