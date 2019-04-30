@@ -103,6 +103,11 @@ For an instance of DCk:
   k ≤ max → yes 
   Else →  no
 ```
+### Other Optimization Problems
+Because we found an efficient solution for HC,we can perform reductions to prove NP-complexity of other dance choreography problems including Dance Choreography Optimization 2 (DCO2), which is proven to be NP-hard through a Turing reduction to DCO, and Dance Choreography Extension (DCE), which proves that DCO is NP-Easy and therefore NP-Equivalent using a hypothetical polynomial time algorithm, a binary search, and a Turing Reduction.
+
+![Image](appopp.png)
+
 ## Exhaustive and Heuristic Algorithms
 Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10. 
 ### Exhaustive Algorithms
