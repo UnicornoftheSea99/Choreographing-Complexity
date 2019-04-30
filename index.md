@@ -27,6 +27,8 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 
 ## Background Information
 ## Decision Problems
+These decision problems are constructed with the aim of determining not a particular choreography but whether, given a set of figures and ways they can be combined and a few other restrictions, a choreography can or cannot be assembled. These problems serve as the base for the following optimization problems, which allow for more specifications.
+
 ### Dance Choreography (DC)
 Dance Choreography is the base problem for this proof that all following problems rely on. It is composed of the Instance, which specifies the components of the problem, and the Question, which specifies what the problem is.
 
