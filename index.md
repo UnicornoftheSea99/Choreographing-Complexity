@@ -37,6 +37,14 @@ Dance Choreography is the base problem for this proof that all following problem
 - _f-start_, _f-end_ in _Figures_;
 - a set _Compulsory_ that is a subset of _Figures_
 
+**Question**
+- Is there a sequence _Amalgamation_ = <f-1, f-2, …, f-n>,
+  -  f-i in _Figures_, 1<=i<=n, and <f-j, f-j+1> in _Follow_, 1<=j<=n
+- Such that 
+  -  f-1 = _f-start_ and f-n = _f-end_
+- And
+  -  {f-i: 1<=i<=n} is a subset of _Compulsory_?
+
 ### Hamiltonian Circuits (HC)
 A Hamiltonian Circuit (HC) is a known NP-Complete problem on a graph which asks whether the graph includes a simple circuit containing all vertices. 
 
