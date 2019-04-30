@@ -105,6 +105,11 @@ For an instance of DCk:
 Since we are talking about optimization, it is important to also talk about algorithms which help us try to find the most optimum solution. It is important to note here that expecting a perfect solution is not practical, especially as the problem grows larger. In the case of dance choreography, this is about when the amalgation length, the number of different figures, exceeds 10.
 ### Exhaustive Algorithms
 In an exhaustive algorithm, every eventuality is investigated and it backtracks as it searches. Though this does eventually find the most optimum solution, it is not very efficient and will take exponential time in the worst case scenario.
+### Heuristic Algorithms: The Greedy Algorithm
+Heuristic algorithms are algorithms in which a practical approach is applied to reach a possible solution. The most optimal solution may not be the result, but a "good enough" solution is. 
+
+The Greedy Algorithm is an example of a heuristic algorithm in which at each step the "best choice" is made and there is no backtracking. This algorithm is much faster than its counterpart, the exhaustive algorithm, however, the optimal solution is not guarenteed.
+![Image](https://ds055uzetaobb.cloudfront.net/brioche/uploads/EKKlGLuUQd-greedy-search-path.gif?width=500)
 
 ## Real World Applications
 
