@@ -27,25 +27,22 @@ In his article “The Complexity of Dance Choreography Procedures”, Nigel Gwee
 
 ## Background Information
 ## Decision Problems
-```markdown
 ### Hamiltonian Circuits (HC)
-```
-
 ```markdown
+```
 ### Dance Choreography (DC)
-
-```
-
 ```markdown
+```
 ### Dance Choreography k (DCk)
+```markdown
 ```
 
 ## Optimization Problems
 We make the transition from decision problems to optimization problems with the help of the problem DCk, which is shown above. 
 
 Here optimization is based on set cardinality. In other words, the most optimum solution is that with the most variation in the figures. 
-```markdown
 ### Dance Choreography Optimization (DCO)
+```markdown
 We show that DCO is NP-hard through showing that DCk, which is NP-complete, is Turing reducible to DCO.
 
 Let max be the optimal solution for an instance of DCO, where max = |{f1, .. fn}|. 
