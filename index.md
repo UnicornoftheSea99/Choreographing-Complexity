@@ -104,7 +104,7 @@ For an instance of DCk:
   Else →  no
 ```
 ### Other Optimization Problems
-Because we found an efficient solution for HC,we can perform reductions to prove NP-complexity of other dance choreography problems including Dance Choreography Optimization 2 (DCO2), which is proven to be NP-hard through a Turing reduction to DCO, and Dance Choreography Extension (DCE), which proves that DCO is NP-Easy and therefore NP-Equivalent using a hypothetical polynomial time algorithm, a binary search, and a Turing Reduction.
+Because we found an efficient solution for HC,we can perform reductions to prove NP-complexity of other dance choreography problems. These include Dance Choreography Optimization 2 (DCO2), which is proven to be NP-hard through a Turing reduction to DCO, and Dance Choreography Extension (DCE), which proves that DCO is NP-Easy and therefore NP-Equivalent using a hypothetical polynomial time algorithm, a binary search, and a Turing Reduction.
 
 ![Image](appopp.png)
 
@@ -126,6 +126,11 @@ As previously stated, heuristic algorithms may be more efficient but they do not
 ![Image](greedy.png)
 
 ## Real World Applications
+As we have proven the complexity of dance choreography, these problems can be used in reductions to prove a whole bunch of other NP problems, which is shown below, including some familiar problems such as 3SAT and VC.
+
+![Image](appreal.png)
+
+Aside from other NP Problems, the principles of this paper can be applied to other abstract concepts such as music composition. In fact, Gwee mentions in the article that they have applied the problems described to create a program that designs dance choreography called Terpsichore©.
 
 ## Evaluation
 The way that the author defined dance, as a series of figures that could or could not be connected in different ways was very clever. It allowed it to take a form distinctly related to graphs, which made the proof process much easier.
